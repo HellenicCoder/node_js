@@ -1,0 +1,24 @@
+{
+    "name": "mynode_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.5",
+        "lodash": "^4.17.21",
+        "minimist": "^1.2.8",
+        "progress": "^2.0.3"
+    },
+    "devDependencies": {
+        "axios": "^1.6.8",
+        "nodemon": "^3.1.0"
+    }
+}
